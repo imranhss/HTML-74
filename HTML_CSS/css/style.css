@@ -16,6 +16,25 @@ p {
     height: 33vh;
     background-color: green;
 
+    display: flex;
+    flex-direction: row;
+}
+
+#div_1 > div {
+    flex: 1;
+    height: 100%;
+}
+
+#div_1_1 {
+    background-color: yellow;
+}
+
+#div_1_2 {
+    background-color: aqua;
+}
+
+#div_1_3 {
+    background-color: black;
 }
 
 #div_2 {
@@ -31,3 +50,4 @@ p {
     background-color: green;
 
 }
+
